@@ -1,0 +1,48 @@
+body{
+    height: 100%;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: #343a40;
+    color: white;
+    flex: 0 1 auto;
+}
+
+.titleText{
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.headline{
+    flex: 0 1 auto;
+    background: url("/ImageViewer/trunk/herbst-see.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /*background-color: white;*/
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.headlineCentered{
+    text-align: center;
+}
+
+.headlineText{
+    font-weight: 300;
+}
+
+.headlineSubtext{
+    color: #868e96;
+}
+
+.album{
+    background-color: #f7f7f7;
+    flex: 1 1 auto;
+}
+
