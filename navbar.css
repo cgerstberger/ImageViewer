@@ -12,6 +12,8 @@ body{
     background-color: #343a40;
     color: white;
     flex: 0 1 auto;
+    min-height: 3rem;
+    display: none;
 }
 
 .titleText{
@@ -25,12 +27,13 @@ body{
     background-repeat: no-repeat;
     background-position-x: center;
     /*background-color: white;*/
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
 }
 
 .headlineCentered{
     text-align: center;
+    background-color: rgba(255,255,255,0.7);    
 }
 
 .headlineText{
@@ -38,7 +41,7 @@ body{
 }
 
 .headlineSubtext{
-    color: #868e96;
+    /*color: #868e96;*/
 }
 
 .album{
@@ -46,3 +49,24 @@ body{
     flex: 1 1 auto;
 }
 
+.albumMargin{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.albumRow{
+    background-color: #f7f7f7;
+}
+
+.albumCard{
+    background-color: white;
+    padding: 0.75rem;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.divImage{
+    background-color: #dddddd;
+    padding:5rem;
+    text-align: center;
+}
