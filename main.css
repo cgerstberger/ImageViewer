@@ -65,6 +65,10 @@ body{
     margin-bottom: 1rem;
 }
 
+.albumCard img:hover{
+    cursor: pointer;
+}
+
 .divImage{
     background-color: #dddddd;
     padding:5rem;

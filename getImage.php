@@ -1,0 +1,6 @@
+<?php
+    $dbUrl = "";
+    $dbUser = "";
+    $dbPwd = "";
+    
+?>
