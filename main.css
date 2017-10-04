@@ -65,8 +65,18 @@ body{
     margin-bottom: 1rem;
 }
 
+.albumCard img{
+    width: 100%;
+}
+
 .albumCard img:hover{
     cursor: pointer;
+}
+
+.albumCard p{
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgray;
 }
 
 .divImage{

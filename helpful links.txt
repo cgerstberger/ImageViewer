@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/39612644/vscode-php-debug-setup
+https://blogs.msdn.microsoft.com/nicktrog/2016/02/11/configuring-visual-studio-code-for-php-development/
+https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug
