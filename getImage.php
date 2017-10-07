@@ -8,6 +8,7 @@
     $j = 0;
     for ($i=0; $i < count($files); $i++) {
         $file = $files[$i];
+        $infoArr = array();
         if(!endsWith($file, ".txt"))
         {
             $urlFileName = $serverAdr . "/" . $file;
@@ -17,7 +18,8 @@
             
             $correspondingTextFile = $fileNameInServerWithoutEnding . ".txt";
             $infoArr[0] = $urlFileName;
-            $infoArr = readTextFileAndAddToArray($correspondingTextFile, $infoArr);
+            if(file_exists($correspondingTextFile))
+                $infoArr = readTextFileAndAddToArray($correspondingTextFile, $infoArr);
             $resultArr[$j] = $infoArr;
             $j++;
             //$fileDict[$urlFileName] = $infoArr;
