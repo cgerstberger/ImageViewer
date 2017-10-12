@@ -17,7 +17,7 @@ function imagesLoaded(response){
         var imageArray = jsonArr[i];
         var imgUrl = imageArray[0];
         var price = imageArray[1];
-        var $div = $("<div></div>").addClass("albumCard");
+        var $div = $("<div></div>").addClass("albumCard col-sm-12 col-md-6");
         var $img = $("<img />").attr("src", imgUrl);
         var $pTag = $("<p>" + price + "</p>");
 
@@ -29,5 +29,6 @@ function imagesLoaded(response){
     $(".albumCard img").click(function(){
         var imgUrl = $(this).attr("src");
         window.open(imgUrl);
+        var msg = "Hello world";
     });
 }
